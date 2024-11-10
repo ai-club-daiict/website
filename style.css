@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f9ff;
+    color: #333;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+/* Header left container for logo and title */
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Spacing between logo and title */
+}
+
+header .logo {
+    height: 50px;
+}
+
+header h1 {
+    margin: 0; /* Remove margin for a tighter layout */
+    font-size: 1.5rem;
+}
+
+/* Navigation list */
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0; /* Removes any default margin */
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Sections */
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+section h2 {
+    color: #004a9f;
+    font-size: 2rem;
+}
+
+/* Events */
+.event {
+    background-color: #e0f3ff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+/* Team */
+.team-member {
+    text-align: center;
+    margin: 1rem;
+}
+.team-member img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.team-member h3 {
+    margin-top: 0.5rem;
+}
+
+/* Resources Tabs */
+.resource-tab button {
+    background-color: #004a9f;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+.tab-content {
+    display: none;
+    margin-top: 1rem;
+}
+
+/* Social Links */
+.socials a {
+    margin: 0 1rem;
+    color: #004a9f;
+    text-decoration: none;
+}
+.socials a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
